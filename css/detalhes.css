@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(to bottom right, #ffffff, #ffe3f1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-image {
+  width: 300px;
+  margin-right: 20px;
+  flex: 1 0 300px;
+}
+
+.product-info {
+  flex: 1 0 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-info h2 {
+  margin-top: 0;
+}
+
+.product-info p {
+  margin-bottom: 10px;
+}
