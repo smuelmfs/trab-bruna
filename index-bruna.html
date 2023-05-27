@@ -1,813 +1,790 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-	<title>Digital Dimension</title>
-	<meta name="keywords" content="">
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
-	<link rel="icon" type="image/png" href="images/favicon-medical.png">
-
-	<!--main file-->
-	<link href="css/medical-guide.css" rel="stylesheet" type="text/css">
-
-	<!--Medical Guide Icons-->
-	<link href="fonts/medical-guide-icons.css" rel="stylesheet" type="text/css">
-
-	<!-- Default Color-->
-	<link href="css/default-color.css" rel="stylesheet" id="color" type="text/css">
-
-	<!--bootstrap-->
-	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-
-	<!--Dropmenu-->
-	<link href="css/dropmenu.css" rel="stylesheet" type="text/css">
-
-	<!--Sticky Header-->
-	<link href="css/sticky-header.css" rel="stylesheet" type="text/css">
-
-	<!--revolution-->
-	<link href="css/style.css" rel="stylesheet" type="text/css">
-	<link href="css/estilo.css" rel="stylesheet" type="text/css">
-	<link href="css/settings.css" rel="stylesheet" type="text/css">
-	<link href="css/extralayers.css" rel="stylesheet" type="text/css">
-
-	<!--Accordion-->
-	<link href="css/accordion.css" rel="stylesheet" type="text/css">
-
-	<!--tabs-->
-	<link href="css/tabs.css" rel="stylesheet" type="text/css">
-
-	<!--Owl Carousel-->
-	<link href="css/owl.carousel.css" rel="stylesheet" type="text/css">
-
-	<!-- Mobile Menu -->
-	<link rel="stylesheet" type="text/css" href="css/jquery.mmenu.all.css" />
-	<link rel="stylesheet" type="text/css" href="css/demo.css" />
-
-	<!--PreLoader-->
-	<link href="css/loader.css" rel="stylesheet" type="text/css">
-
-</head>
-
-<body>
-
-	<div id="wrap">
-
-		<!--Start PreLoader-->
-		<div id="preloader">
-			<div id="status">&nbsp;</div>
-			<div class="loader">
-				<h1>Loading...</h1>
-				<span></span>
-				<span></span>
-				<span></span>
-			</div>
-		</div>
-		<!--End PreLoader-->
-
-
-		<!--Start Header-->
-
-		<div id="header-2">
-
-			<header class="header header2">
-				<div class="container">
-
-
-					<div class="row">
-
-						<div class="col-md-3">
-							<a href="" class="logo"><img src="images/logo.png" alt=""></a>
-						</div>
-
-						<div class="col-md-9">
-
-
-							<nav class="menu-2">
-								<ul class="nav wtf-menu">
-									<li><a href="#.">Entrar</a></li>
-									<li><a href="#.">Registrar</a></li>
-									<li><a href="#">Minha Conta</a></li>
-									<li><a href="#">Acompanhar Pedido</a></li>
-								</ul>
-							</nav>
-
-						</div>
-
-					</div>
-
-
-				</div>
-			</header>
-		</div>
-
-		<!--End Header-->
-		<!-- Mobile Menu Start -->
-		<div class="container">
-			<div id="page">
-				<header class="header">
-					<a href="#menu"></a>
-
-				</header>
-
-				<nav id="menu">
-					<ul>
-						<li><a href="#.">Entrar</a></li>
-						<li><a href="#.">Registrar</a></li>
-						<li><a href="#">Minha Conta</a></li>
-						<li><a href="#">Acompanhar Pedido</a></li>
-					</ul>
-				</nav>
-			</div>
-		</div>
-		<!-- Mobile Menu End -->
-
-
-
-
-		<div class="row">
-			<div class="col-md-12">
-				<div class="content">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12">
-								<div class="form-group">
-									<input type="text" placeholder="Pesquise por um produto, categoria, vendedores ou marca"
-										name="campoPesquisaPrincipal" id="campoPesquisaPrincipal"
-										class="form-control mesmaLinha correcaoInputPrincipal">
-									<input name=" " type="submit" value="Pesquisar" class="btn btn-danger mesmaLinha">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!--Start Banner-->
-		<div class="row">
-			<!-- Aqui inicia o campo de busca -->
-			<div class="col-md-4 espacoBusca">
-				<div class="content">
-					<div class="leave-msg dark-back">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-12">
-									<div class="main-title top50">
-										<h4>Busca Rápida - Escolha o Produto</h4>
-										<p>Encontre o produto certo pelo preço.</p>
-									</div>
-									<div class="form">
-
-										<form name="contact_form" id="contact_form" method="post" action="#" onSubmit="return false">
-											<div class="row bottom20">
-												<div class="col-md-6">
-													<div class="form-group">
-														<label class="control-label">Tipo:</label>
-														<select class="form-control custom-select" id="pesquisaTipo" name="pesquisaTipo">
-															<option value="0" selected>Selecione uma Opção:</option>
-															<option value="Computador">Computador</option>
-															<option value="Impressora">Impressora</option>
-															<option value="Monitor">Monitor</option>
-															<option value="Teclado">Teclado</option>
-															<option value="Placas de Vídeo">Placas de Vídeo</option>
-														</select>
-													</div>
-												</div>
-											</div>
-											<div class="row bottom20">
-												<div class="col-md-6">
-													<div class="form-group">
-														<label class="control-label">Marca:</label>
-														<select class="form-control custom-select" id="pesquisaMarca" name="pesquisaMarca">
-															<option value="0" selected>Selecione uma Opção:</option>
-															<option value="Dell">Dell</option>
-															<option value="Lenovo">Lenovo</option>
-															<option value="Acer">Acer</option>
-															<option value="HP">HP</option>
-															<option value="Asus">Asus</option>
-														</select>
-													</div>
-												</div>
-											</div>
-											<div class="row bottom20">
-												<div class="col-md-6">
-													<div class="form-group">
-														<label class="control-label">Modelo:</label>
-														<select class="form-control custom-select" id="pesquisaModelo" name="pesquisaModelo">
-															<option value="0" selected>Selecione uma Opção:</option>
-															<option value="Vostro 15">Vostro 15</option>
-															<option value="M75q">M75q</option>
-															<option value="Swift 3">Swift 3</option>
-															<option value="Pro Book">Pro Book</option>
-															<option value="x515">x515</option>
-														</select>
-													</div>
-												</div>
-											</div>
-											<div class="row bottom20">
-												<div class="col-md-3">
-													<div class="form-group">
-														<label class="control-label">Valor Mínimo:</label>
-														<input type="text" placeholder="R$:00,00" name="valorMinimo" id="valorMinimo"
-															class="form-control">
-													</div>
-												</div>
-												<div class="col-md-3">
-													<div class="form-group">
-														<label class="control-label">Valor Máximo:</label>
-														<input type="text" placeholder="R$:00,00" name="valorMaximo" id="valorMaximo"
-															class="form-control">
-													</div>
-												</div>
-											</div>
-											<div class="row bottom20">
-												<div class="col-md-8 col-centered">
-													<div class="form-actions">
-														<input name=" " type="submit" value="Pesquisar" class="btn btn-danger btn-lg">
-													</div>
-												</div>
-											</div>
-										</form>
-
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div> <!-- Aqui finaliza o campo de busca -->
-			<!-- Aqui inicia o banner -->
-			<div class="col-md-8">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="tp-banner-container">
-							<div class="tp-banner">
-								<ul> <!-- SLIDE  -->
-									<li data-transition="fade" data-slotamount="7" data-masterspeed="10" data-saveperformance="on"
-										data-title="Intro Slide">
-										<img src="images/bannerprincipal/01.jpg" alt="" data-bgposition="center top" data-bgfit="cover"
-											data-bgrepeat="no-repeat">
-									</li>
-									<li data-transition="fade" data-slotamount="7" data-masterspeed="10" data-saveperformance="on"
-										data-title="Intro Slide">
-										<img src="images/bannerprincipal/02.jpg" alt="" data-bgposition="center top" data-bgfit="cover"
-											data-bgrepeat="no-repeat">
-									</li>
-									<li data-transition="fade" data-slotamount="7" data-masterspeed="10" data-saveperformance="on"
-										data-title="Intro Slide">
-										<img src="images/bannerprincipal/03.jpg" alt="" data-bgposition="center top" data-bgfit="cover"
-											data-bgrepeat="no-repeat">
-									</li>
-								</ul>
-								<div class="tp-bannertimer"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div> <!--Aqui termina o banner -->
-		</div>
-		<!--Fim da Row com a busca e o banner-->
-
-
-
-		<!--Start Content-->
-		<div class="content">
-
-
-
-			<div class="services-content">
-				<div class="container">
-
-
-					<div class="row">
-
-						<!-- coluna dos itens a venda 3 por 3-->
-						<div class="col-md-9">
-							<ul class="shop clearfix list-unstyled linkDosItensVendidos">
-								<!-- este é o inicio do item 01-->
-								<li>
-									<div class="product">
-										<div class="product-thumb">
-											<a><img src="images/shop/01.png" alt=""></a>
-										</div>
-										<div class="product-description clearfix">
-											<h3><a href="#">Monitor Predator X</a></h3>
-											<a><img src="images/estrelas/05.png" class="reduzImg"></a>
-											<span class="double-border"></span>
-											<p class="price"><b>R$ 2519</b> &ensp; <u>R$ 3110</u> 14% OFF</p>
-										</div>
-									</div>
-								</li>
-								<!-- este é o fim do item 01-->
-
-								<!-- este é o inicio do item 02-->
-								<li>
-									<div class="product">
-										<div class="product-thumb">
-											<a><img src="images/shop/02.png" alt=""></a>
-										</div>
-										<div class="product-description clearfix">
-											<h3><a href="#">Notebook HP COMP</a></h3>
-											<a><img src="images/estrelas/04.png" class="reduzImg"></a>
-											<span class="double-border"></span>
-											<p class="price"><b>R$ 3254</b> &ensp; <u>R$ 3799</u> 14% OFF</p>
-										</div>
-									</div>
-								</li>
-								<!-- este é o fim do item 02-->
-
-								<!-- este é o inicio do item 03-->
-								<li>
-									<div class="product">
-										<div class="product-thumb">
-											<a><img src="images/shop/03.png" alt=""></a>
-										</div>
-										<div class="product-description clearfix">
-											<h3><a href="#">Headset Corsair SE</a></h3>
-											<a><img src="images/estrelas/03.png" class="reduzImg"></a>
-											<span class="double-border"></span>
-											<p class="price"><b>R$ 1254</b> &ensp; <u>R$ 1699</u> 14% OFF</p>
-										</div>
-									</div>
-								</li>
-								<!-- este é o fim do item 03-->
-
-								<!-- este é o inicio do item 04-->
-								<li>
-									<div class="product">
-										<div class="product-thumb">
-											<a><img src="images/shop/04.png" alt=""></a>
-										</div>
-										<div class="product-description clearfix">
-											<h3><a href="#">Water Cooler NZXT</a></h3>
-											<a><img src="images/estrelas/02.png" class="reduzImg"></a>
-											<span class="double-border"></span>
-											<p class="price"><b>R$ 1549</b> &ensp; <u>R$ 2172</u> 14% OFF</p>
-										</div>
-									</div>
-								</li>
-								<!-- este é o fim do item 04-->
-
-								<!-- este é o inicio do item 05-->
-								<li>
-									<div class="product">
-										<div class="product-thumb">
-											<a><img src="images/shop/05.png" alt=""></a>
-										</div>
-										<div class="product-description clearfix">
-											<h3><a href="#">Gabinete Corsair Mil</a></h3>
-											<a><img src="images/estrelas/01.png" class="reduzImg"></a>
-											<span class="double-border"></span>
-											<p class="price"><b>R$ 3469</b> &ensp; <u>R$ 3652</u> 14% OFF</p>
-										</div>
-									</div>
-								</li>
-								<!-- este é o fim do item 05-->
-
-								<!-- este é o inicio do item 06-->
-								<li>
-									<div class="product">
-										<div class="product-thumb">
-											<a><img src="images/shop/06.png" alt=""></a>
-										</div>
-										<div class="product-description clearfix">
-											<h3><a href="#">Controle Galatic</a></h3>
-											<a><img src="images/estrelas/02.png" class="reduzImg"></a>
-											<span class="double-border"></span>
-											<p class="price"><b>R$ 379</b> &ensp; <u>R$ 500</u> 14% OFF</p>
-										</div>
-									</div>
-								</li>
-								<!-- este é o fim do item 06-->
-
-								<!-- este é o inicio do item 07-->
-								<li>
-									<div class="product">
-										<div class="product-thumb">
-											<a><img src="images/shop/07.png" alt=""></a>
-										</div>
-										<div class="product-description clearfix">
-											<h3><a href="#">Volante Logitech</a></h3>
-											<a><img src="images/estrelas/03.png" class="reduzImg"></a>
-											<span class="double-border"></span>
-											<p class="price"><b>R$ 1616</b> &ensp; <u>R$ 1702</u> 14% OFF</p>
-										</div>
-									</div>
-								</li>
-								<!-- este é o fim do item 07-->
-
-								<!-- este é o inicio do item 08-->
-								<li>
-									<div class="product">
-										<div class="product-thumb">
-											<a><img src="images/shop/08.png" alt=""></a>
-										</div>
-										<div class="product-description clearfix">
-											<h3><a href="#">Xbox Series X</a></h3>
-											<a><img src="images/estrelas/04.png" class="reduzImg"></a>
-											<span class="double-border"></span>
-											<p class="price"><b>R$ 4215</b> &ensp; <u>R$ 4999</u> 14% OFF</p>
-										</div>
-									</div>
-								</li>
-								<!-- este é o fim do item 08-->
-
-								<!-- este é o inicio do item 09-->
-								<li>
-									<div class="product">
-										<div class="product-thumb">
-											<a><img src="images/shop/09.png" alt=""></a>
-										</div>
-										<div class="product-description clearfix">
-											<h3><a href="#">Geforce RTX</a></h3>
-											<a><img src="images/estrelas/05.png" class="reduzImg"></a>
-											<span class="double-border"></span>
-											<p class="price"><b>R$ 8473</b> &ensp; <u>R$ 9269</u> 14% OFF</p>
-										</div>
-									</div>
-								</li>
-								<!-- este é o fim do item 09-->
-							</ul>
-
-						</div><!-- coluna dos itens a venda 3 por 3-->
-
-						<!-- INICIA AQUI A COLUNA DOS ITENS MAIS VISTOS -->
-						<div class="col-md-3">
-							<aside>
-
-								<div class="sidebar-widget dark-back linkdosItensMaisVistos">
-									<h3><br />&ensp;Itens Mais Vistos</h3>
-
-									<!-- este é o inicio do item 01-->
-									<div class="centroItensMaisVistos top-products clearfix">
-										<a href="#."><img src="images/shop/t1.png" alt=""></a>
-										<div class="top-products-detail">
-											<h4><a href="#.">Mouse Razr</a></h4>
-											<a><img src="images/estrelas/05.png" class="reduzImg estrelaMaisVista"></a>
-											<p>(6)</p>
-											<p>R$ 125,00</p>
-										</div>
-									</div>
-									<!-- este é o final do item 01-->
-
-									<!-- este é o inicio item 02-->
-									<div class="centroItensMaisVistos top-products clearfix">
-										<a href="#."><img src="images/shop/t2.png" alt=""></a>
-										<div class="top-products-detail">
-											<h4><a href="#.">Teclado Red Dragon</a></h4>
-											<a><img src="images/estrelas/03.png" class="reduzImg estrelaMaisVista"></a>
-											<p>(6)</p>
-											<p>R$ 315,00</p>
-										</div>
-									</div>
-									<!-- este é o fim do item 02-->
-
-									<!-- este é o inicio do item 03-->
-									<div class="centroItensMaisVistos top-products clearfix">
-										<a href="#."><img src="images/shop/t3.png" alt=""></a>
-										<div class="top-products-detail">
-											<h4><a href="#.">Impressora HP</a></h4>
-											<a><img src="images/estrelas/01.png" class="reduzImg estrelaMaisVista"></a>
-											<p>(6)</p>
-											<p>R$ 578,00</p>
-										</div>
-									</div>
-									<!-- este é o fim do item 03-->
-
-									<!-- este é o inicio do item 04-->
-									<div class="centroItensMaisVistos top-products clearfix">
-										<a href="#."><img src="images/shop/t4.png" alt=""></a>
-										<div class="top-products-detail">
-											<h4><a href="#.">Memória Corsair</a></h4>
-											<a><img src="images/estrelas/04.png" class="reduzImg estrelaMaisVista"></a>
-											<p>(6)</p>
-											<p>R$ 492,00</p>
-										</div>
-									</div>
-									<!-- este é o fim do item 04-->
-
-									<!-- este é o inicio do item 05-->
-									<div class="centroItensMaisVistos top-products clearfix">
-										<a href="#."><img src="images/shop/t5.png" alt=""></a>
-										<div class="top-products-detail">
-											<h4><a href="#.">SSD Kingston</a></h4>
-											<a><img src="images/estrelas/02.png" class="reduzImg estrelaMaisVista"></a>
-											<p>(6)</p>
-											<p>R$ 721,00</p>
-										</div>
-									</div>
-									<!-- este é o fim do item 05-->
-
-									<!-- Aqui comeca o botao de ver mais-->
-									<div class="row bottom20">
-										<div class="col-md-7 col-centered">
-											<div><input name="botaoVerMais" id="botaoVerMais" type="submit" value="Ver Mais Itens"
-													class="btn btn-danger btn-lg"></div>
-										</div>
-									</div>
-									<!-- Aqui termina o botao de ver mais-->
-								</div>
-
-								<!-- Aqui comeca o BOLETIM DE NOTICIAS-->
-								<div class="sidebar-widget dark-back">
-									<h3><br />&ensp;Boletim de Notícias</h3>
-									<div class="row bottom20">
-										<div class="col-md-10 col-centered">
-
-											<!-- Aqui comeca a Caixa para digitar o email -->
-											<div class="form-group">
-												<input type="text" placeholder="Digite aqui seu email" name="contact_subject"
-													id="contact_subject" class="form-control">
-											</div>
-											<!-- Aqui finaliza a Caixa para digitar o email-->
-
-										</div>
-										<div class="col-md-6 col-centered">
-											<div class="form-group">
-
-												<!-- Aqui esta botao de Cadastrar-->
-												<input name="botaoVerMais" id="botaoVerMais" type="submit" value="Cadastrar"
-													class="btn btn-danger btn-lg">
-
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Aqui termina o BOLETIM DE NOTICIAS-->
-
-							</aside>
-						</div> <!-- AQUI TERMINA A COLUNA DOS ITENS MAIS VISTOS -->
-
-					</div>
-
-
-				</div>
-			</div>
-
-
-		</div>
-		<!--End Content-->
-
-
-
-
-		<!--Start Footer-->
-		<footer class="footer" id="footer">
-			<div class="container">
-
-
-
-				<div class="main-footer">
-					<div class="row">
-
-						<div class="col-md-3">
-
-							<!--AQUI COMECA O METODO DE PAGAMENTO-->
-							<div class="useful-links">
-								<div class="title">
-									<h6 class="textoH6DoRodape">Método de Pagamento</h6>
-								</div>
-								<div class="detail">
-
-									<!--Aqui estao as imagens do cartao visa e mastercard-->
-									<div class="row">
-										<img src="images/pagamentos/00.png" class="cartaoRodape" alt="">
-										<img src="images/pagamentos/01.png" class="cartaoRodape" alt="">
-									</div>
-									<!--Aqui termina os cartao visa e mastercard-->
-
-									<!--Aqui estao as imagens do paypal e american express-->
-									<div class="row">
-										<img src="images/pagamentos/02.png" class="cartaoRodape" alt="">
-										<img src="images/pagamentos/03.png" class="cartaoRodape" alt="">
-									</div>
-									<!--Aqui termina as imagens do paypal e american express-->
-
-								</div>
-							</div>
-							<!--AQUI TERMINA O METODO DE PAGAMENTO-->
-
-						</div>
-
-						<!--AQUI COMECA OS LINK RAPIDOS-->
-						<div class="col-md-3">
-
-							<div class="title">
-								<h6 class="textoH6DoRodape">Links Rápidos</h6>
-							</div>
-
-							<!--AQUI TERMINA OS LINK RAPIDOS-->
-							<div class="useful-links">
-
-								<div class="detail">
-									<ul class="linksDoRodape">
-
-										<li><a href="#.">Ajuda</a></li>
-										<li><a href="#.">Política de envio</a></li>
-										<li><a href="#.">Cancelamento e Devoluções</a></li>
-										<li><a href="#.">Perguntas Frequentes</a></li>
-										<li><a href="#.">Política de Privacidade</a></li>
-										<li><a href="#.">Reclamações</a></li>
-
-									</ul>
-								</div>
-
-							</div>
-							<!--Aqui termina os links do rodape-->
-
-						</div>
-						<!--AQUI TERMINA OS LINK RAPIDOS-->
-
-						<!--AQUI COMECA AS REDES SOCIAIS-->
-						<div class="col-md-3">
-
-							<div class="newsletter">
-								<div class="title">
-									<h6 class="textoH6DoRodape">Redes Sociais</h6>
-								</div>
-
-								<div class="detail">
-
-									<ul class="iconesDoRodape">
-										<li>
-											<i class="icon-facebook"></i>
-										</li>
-										<li>
-											<i class="icon-tumblr"></i>
-										</li>
-										<li>
-											<i class="icon-googleplus"></i>
-										</li>
-									</ul>
-								</div>
-
-
-							</div>
-
-						</div>
-						<!--AQUI TERMINA AS REDES SOCIAIS-->
-
-						<!--AQUI COMECA AS FORMAS DE CONTATO-->
-						<div class="col-md-3">
-
-							<div class="get-touch">
-								<div class="title">
-									<h6 class="textoH6DoRodape">Contate-nos</h6>
-								</div>
-
-								<div class="detail top20">
-									<div class="get-touch">
-
-										<!--Aqui comeca os icones com as suas respectivas informacoes-->
-										<ul>
-											<li><i class="icon-location"></i> <span>Rua Rio Cumprido, Cinco - Contagem</span></li>
-											<li><i class="icon-phone4"></i> <span>(31) 3399-5950</span></li>
-											<li><a href="#."><i class="icon-dollar"></i> <span>1450747@sga.pucminas.br</span></a></li>
-										</ul>
-										<!--Aqui termina os icones com as suas respectivas informacoes-->
-
-									</div>
-								</div>
-							</div>
-						</div>
-						<!--AQUI TERMINA AS FORMAS DE CONTATO-->
-
-					</div>
-				</div>
-			</div>
-
-
-		</footer>
-		<!--End Footer-->
-
-		<div class="text-center fs-5" style="background-color: #e1a6a3; color:black;">
-			<p>Copyright &copy; 2023 - DigitalDimension.com</p>
-		</div>
-
-
-		<a href="#0" class="cd-top"></a>
-	</div>
-
-
-
-
-	<script type="text/javascript" src="js/jquery.js"></script>
-
-	<!-- SMOOTH SCROLL -->
-	<script type="text/javascript" src="js/scroll-desktop.js"></script>
-	<script type="text/javascript" src="js/scroll-desktop-smooth.js"></script>
-
-	<!-- START REVOLUTION SLIDER -->
-	<script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
-	<script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
-
-
-	<!-- Date Picker and input hover -->
-	<script type="text/javascript" src="js/classie.js"></script>
-	<script type="text/javascript" src="js/jquery-ui-1.10.3.custom.js"></script>
-
-	<!-- Fun Facts Counter -->
-	<script type="text/javascript" src="js/counter.js"></script>
-
-
-	<!-- Welcome Tabs -->
-	<script type="text/javascript" src="js/tabs.js"></script>
-
-
-	<!-- All Carousel -->
-	<script type="text/javascript" src="js/owl.carousel.js"></script>
-
-	<!-- Mobile Menu -->
-	<script type="text/javascript" src="js/jquery.mmenu.min.all.js"></script>
-
-	<!-- All Scripts -->
-	<script type="text/javascript" src="js/custom.js"></script>
-
-
-	<!-- Revolution Slider -->
-	<script type="text/javascript">
-		jQuery('.tp-banner').show().revolution(
-			{
-				dottedOverlay: "none",
-				delay: 2500,
-				startwidth: 1170,
-				startheight: 720,
-				hideThumbs: 200,
-
-				thumbWidth: 100,
-				thumbHeight: 50,
-				thumbAmount: 5,
-
-				navigationType: "nexttobullets",
-				navigationArrows: "solo",
-				navigationStyle: "preview",
-
-				touchenabled: "on",
-				onHoverStop: "on",
-
-				swipe_velocity: 0.7,
-				swipe_min_touches: 1,
-				swipe_max_touches: 1,
-				drag_block_vertical: false,
-
-				parallax: "mouse",
-				parallaxBgFreeze: "on",
-				parallaxLevels: [7, 4, 3, 2, 5, 4, 3, 2, 1, 0],
-
-				keyboardNavigation: "off",
-
-				navigationHAlign: "center",
-				navigationVAlign: "bottom",
-				navigationHOffset: 0,
-				navigationVOffset: 20,
-
-				soloArrowLeftHalign: "left",
-				soloArrowLeftValign: "center",
-				soloArrowLeftHOffset: 20,
-				soloArrowLeftVOffset: 0,
-
-				soloArrowRightHalign: "right",
-				soloArrowRightValign: "center",
-				soloArrowRightHOffset: 20,
-				soloArrowRightVOffset: 0,
-
-				shadow: 0,
-				fullWidth: "on",
-				fullScreen: "off",
-
-				spinner: "spinner4",
-
-				stopLoop: "off",
-				stopAfterLoops: -1,
-				stopAtSlide: -1,
-
-				shuffle: "off",
-
-				autoHeight: "off",
-				forceFullWidth: "off",
-
-
-
-				hideThumbsOnMobile: "off",
-				hideNavDelayOnMobile: 1500,
-				hideBulletsOnMobile: "off",
-				hideArrowsOnMobile: "off",
-				hideThumbsUnderResolution: 0,
-
-				hideSliderAtLimit: 0,
-				hideCaptionAtLimit: 0,
-				hideAllCaptionAtLilmit: 0,
-				startWithSlide: 0,
-				videoJsPath: "rs-plugin/videojs/",
-				fullScreenOffsetContainer: ""
-			});
-	</script>
-
-
-</body>
-
+  <head>
+    <title>Digital Dimension</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <link rel="icon" type="image/png" href="images/favicon-medical.png" />
+
+    <!--main file-->
+    <link href="css/medical-guide.css" rel="stylesheet" type="text/css" />
+
+    <!--Medical Guide Icons-->
+    <link href="fonts/medical-guide-icons.css" rel="stylesheet" type="text/css" />
+
+    <!-- Default Color-->
+    <link href="css/default-color.css" rel="stylesheet" id="color" type="text/css" />
+
+    <!--bootstrap-->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+
+    <!--Dropmenu-->
+    <link href="css/dropmenu.css" rel="stylesheet" type="text/css" />
+
+    <!--Sticky Header-->
+    <link href="css/sticky-header.css" rel="stylesheet" type="text/css" />
+
+    <!--revolution-->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/estilo.css" rel="stylesheet" type="text/css" />
+    <link href="css/settings.css" rel="stylesheet" type="text/css" />
+    <link href="css/extralayers.css" rel="stylesheet" type="text/css" />
+
+    <!--Accordion-->
+    <link href="css/accordion.css" rel="stylesheet" type="text/css" />
+
+    <!--tabs-->
+    <link href="css/tabs.css" rel="stylesheet" type="text/css" />
+
+    <!--Owl Carousel-->
+    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
+
+    <!-- Mobile Menu -->
+    <link rel="stylesheet" type="text/css" href="css/jquery.mmenu.all.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+
+    <!--PreLoader-->
+    <link href="css/loader.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div id="wrap">
+      <!--Start PreLoader-->
+      <div id="preloader">
+        <div id="status">&nbsp;</div>
+        <div class="loader">
+          <h1>Loading...</h1>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <!--End PreLoader-->
+
+      <!--Start Header-->
+
+      <div id="header-2">
+        <header class="header header2">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <a href="" class="logo"><img src="images/logo.png" alt="" /></a>
+              </div>
+
+              <div class="col-md-9">
+                <nav class="menu-2">
+                  <ul class="nav wtf-menu">
+                    <li><a href="#.">Entrar</a></li>
+                    <li><a href="#.">Registrar</a></li>
+                    <li><a href="#">Minha Conta</a></li>
+                    <li><a href="#">Acompanhar Pedido</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+
+      <!--End Header-->
+      <!-- Mobile Menu Start -->
+      <div class="container">
+        <div id="page">
+          <header class="header">
+            <a href="#menu"></a>
+          </header>
+
+          <nav id="menu">
+            <ul>
+              <li><a href="#.">Entrar</a></li>
+              <li><a href="#.">Registrar</a></li>
+              <li><a href="#">Minha Conta</a></li>
+              <li><a href="#">Acompanhar Pedido</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- Mobile Menu End -->
+      <!--Start Banner-->
+      <div class="row">
+        <!-- Aqui inicia o banner -->
+        <div class="col-12">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="tp-banner-container">
+                <div class="tp-banner">
+                  <ul>
+                    <!-- SLIDE  -->
+                    <li
+                      data-transition="fade"
+                      data-slotamount="7"
+                      data-masterspeed="10"
+                      data-saveperformance="on"
+                      data-title="Intro Slide"
+                    >
+                      <img
+                        src="images/bannerprincipal/01.jpg"
+                        alt=""
+                        data-bgposition="center top"
+                        data-bgfit="cover"
+                        data-bgrepeat="no-repeat"
+                      />
+                    </li>
+                    <li
+                      data-transition="fade"
+                      data-slotamount="7"
+                      data-masterspeed="10"
+                      data-saveperformance="on"
+                      data-title="Intro Slide"
+                    >
+                      <img
+                        src="images/bannerprincipal/02.jpg"
+                        alt=""
+                        data-bgposition="center top"
+                        data-bgfit="cover"
+                        data-bgrepeat="no-repeat"
+                      />
+                    </li>
+                    <li
+                      data-transition="fade"
+                      data-slotamount="7"
+                      data-masterspeed="10"
+                      data-saveperformance="on"
+                      data-title="Intro Slide"
+                    >
+                      <img
+                        src="images/bannerprincipal/03.jpg"
+                        alt=""
+                        data-bgposition="center top"
+                        data-bgfit="cover"
+                        data-bgrepeat="no-repeat"
+                      />
+                    </li>
+                  </ul>
+                  <div class="tp-bannertimer"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Aqui termina o banner -->
+        <!-- Aqui inicia o campo de busca -->
+        <div class="row" style="margin-top: 20px">
+          <div class="col-12" align="center">
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="Pesquise por um produto, categoria, vendedores ou marca"
+                name="campoPesquisaPrincipal"
+                id="campoPesquisaPrincipal"
+                class="form-control mesmaLinha correcaoInputPrincipal"
+              />
+              <input name=" " type="submit" value="Pesquisar" class="btn btn-danger mesmaLinha" />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-4 espacoBusca">
+          <div class="content">
+            <div class="leave-msg dark-back">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="main-title top50">
+                      <h4>Busca Rápida - Escolha o Produto</h4>
+                      <p>Encontre o produto certo pelo preço.</p>
+                    </div>
+                    <div class="form">
+                      <form name="contact_form" id="contact_form" method="post" action="#" onSubmit="return false">
+                        <div class="row bottom20">
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label class="control-label">Tipo:</label>
+                              <select class="form-control custom-select" id="pesquisaTipo" name="pesquisaTipo">
+                                <option value="0" selected>Selecione uma Opção:</option>
+                                <option value="Computador">Computador</option>
+                                <option value="Impressora">Impressora</option>
+                                <option value="Monitor">Monitor</option>
+                                <option value="Teclado">Teclado</option>
+                                <option value="Placas de Vídeo">Placas de Vídeo</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row bottom20">
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label class="control-label">Marca:</label>
+                              <select class="form-control custom-select" id="pesquisaMarca" name="pesquisaMarca">
+                                <option value="0" selected>Selecione uma Opção:</option>
+                                <option value="Dell">Dell</option>
+                                <option value="Lenovo">Lenovo</option>
+                                <option value="Acer">Acer</option>
+                                <option value="HP">HP</option>
+                                <option value="Asus">Asus</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row bottom20">
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label class="control-label">Modelo:</label>
+                              <select class="form-control custom-select" id="pesquisaModelo" name="pesquisaModelo">
+                                <option value="0" selected>Selecione uma Opção:</option>
+                                <option value="Vostro 15">Vostro 15</option>
+                                <option value="M75q">M75q</option>
+                                <option value="Swift 3">Swift 3</option>
+                                <option value="Pro Book">Pro Book</option>
+                                <option value="x515">x515</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row bottom20">
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <label class="control-label">Valor Mínimo:</label>
+                              <input
+                                type="text"
+                                placeholder="R$:00,00"
+                                name="valorMinimo"
+                                id="valorMinimo"
+                                class="form-control"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <label class="control-label">Valor Máximo:</label>
+                              <input
+                                type="text"
+                                placeholder="R$:00,00"
+                                name="valorMaximo"
+                                id="valorMaximo"
+                                class="form-control"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row bottom20">
+                          <div class="col-md-8 col-centered">
+                            <div class="form-actions">
+                              <input name=" " type="submit" value="Pesquisar" class="btn btn-danger btn-lg" />
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Aqui finaliza o campo de busca -->
+      </div>
+      <!--Fim da Row com a busca e o banner-->
+
+      <!--Start Content-->
+      <div class="content">
+        <div class="services-content">
+          <div class="container">
+            <div class="row">
+              <!-- coluna dos itens a venda 3 por 3-->
+              <div class="col-md-9">
+                <ul class="shop clearfix list-unstyled linkDosItensVendidos">
+                  <!-- este é o inicio do item 01-->
+                  <li>
+                    <div class="product">
+                      <div class="product-thumb">
+                        <a><img src="images/shop/01.png" alt="" /></a>
+                      </div>
+                      <div class="product-description clearfix">
+                        <h3><a href="#">Monitor Predator X</a></h3>
+                        <a><img src="images/estrelas/05.png" class="reduzImg" /></a>
+                        <span class="double-border"></span>
+                        <p class="price"><b>R$ 2519</b> &ensp; <u>R$ 3110</u> 14% OFF</p>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- este é o fim do item 01-->
+
+                  <!-- este é o inicio do item 02-->
+                  <li>
+                    <div class="product">
+                      <div class="product-thumb">
+                        <a><img src="images/shop/02.png" alt="" /></a>
+                      </div>
+                      <div class="product-description clearfix">
+                        <h3><a href="#">Notebook HP COMP</a></h3>
+                        <a><img src="images/estrelas/04.png" class="reduzImg" /></a>
+                        <span class="double-border"></span>
+                        <p class="price"><b>R$ 3254</b> &ensp; <u>R$ 3799</u> 14% OFF</p>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- este é o fim do item 02-->
+
+                  <!-- este é o inicio do item 03-->
+                  <li>
+                    <div class="product">
+                      <div class="product-thumb">
+                        <a><img src="images/shop/03.png" alt="" /></a>
+                      </div>
+                      <div class="product-description clearfix">
+                        <h3><a href="#">Headset Corsair SE</a></h3>
+                        <a><img src="images/estrelas/03.png" class="reduzImg" /></a>
+                        <span class="double-border"></span>
+                        <p class="price"><b>R$ 1254</b> &ensp; <u>R$ 1699</u> 14% OFF</p>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- este é o fim do item 03-->
+
+                  <!-- este é o inicio do item 04-->
+                  <li>
+                    <div class="product">
+                      <div class="product-thumb">
+                        <a><img src="images/shop/04.png" alt="" /></a>
+                      </div>
+                      <div class="product-description clearfix">
+                        <h3><a href="#">Water Cooler NZXT</a></h3>
+                        <a><img src="images/estrelas/02.png" class="reduzImg" /></a>
+                        <span class="double-border"></span>
+                        <p class="price"><b>R$ 1549</b> &ensp; <u>R$ 2172</u> 14% OFF</p>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- este é o fim do item 04-->
+
+                  <!-- este é o inicio do item 05-->
+                  <li>
+                    <div class="product">
+                      <div class="product-thumb">
+                        <a><img src="images/shop/05.png" alt="" /></a>
+                      </div>
+                      <div class="product-description clearfix">
+                        <h3><a href="#">Gabinete Corsair Mil</a></h3>
+                        <a><img src="images/estrelas/01.png" class="reduzImg" /></a>
+                        <span class="double-border"></span>
+                        <p class="price"><b>R$ 3469</b> &ensp; <u>R$ 3652</u> 14% OFF</p>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- este é o fim do item 05-->
+
+                  <!-- este é o inicio do item 06-->
+                  <li>
+                    <div class="product">
+                      <div class="product-thumb">
+                        <a><img src="images/shop/06.png" alt="" /></a>
+                      </div>
+                      <div class="product-description clearfix">
+                        <h3><a href="#">Controle Galatic</a></h3>
+                        <a><img src="images/estrelas/02.png" class="reduzImg" /></a>
+                        <span class="double-border"></span>
+                        <p class="price"><b>R$ 379</b> &ensp; <u>R$ 500</u> 14% OFF</p>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- este é o fim do item 06-->
+
+                  <!-- este é o inicio do item 07-->
+                  <li>
+                    <div class="product">
+                      <div class="product-thumb">
+                        <a><img src="images/shop/07.png" alt="" /></a>
+                      </div>
+                      <div class="product-description clearfix">
+                        <h3><a href="#">Volante Logitech</a></h3>
+                        <a><img src="images/estrelas/03.png" class="reduzImg" /></a>
+                        <span class="double-border"></span>
+                        <p class="price"><b>R$ 1616</b> &ensp; <u>R$ 1702</u> 14% OFF</p>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- este é o fim do item 07-->
+
+                  <!-- este é o inicio do item 08-->
+                  <li>
+                    <div class="product">
+                      <div class="product-thumb">
+                        <a><img src="images/shop/08.png" alt="" /></a>
+                      </div>
+                      <div class="product-description clearfix">
+                        <h3><a href="#">Xbox Series X</a></h3>
+                        <a><img src="images/estrelas/04.png" class="reduzImg" /></a>
+                        <span class="double-border"></span>
+                        <p class="price"><b>R$ 4215</b> &ensp; <u>R$ 4999</u> 14% OFF</p>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- este é o fim do item 08-->
+
+                  <!-- este é o inicio do item 09-->
+                  <li>
+                    <div class="product">
+                      <div class="product-thumb">
+                        <a><img src="images/shop/09.png" alt="" /></a>
+                      </div>
+                      <div class="product-description clearfix">
+                        <h3><a href="#">Geforce RTX</a></h3>
+                        <a><img src="images/estrelas/05.png" class="reduzImg" /></a>
+                        <span class="double-border"></span>
+                        <p class="price"><b>R$ 8473</b> &ensp; <u>R$ 9269</u> 14% OFF</p>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- este é o fim do item 09-->
+                </ul>
+              </div>
+              <!-- coluna dos itens a venda 3 por 3-->
+
+              <!-- INICIA AQUI A COLUNA DOS ITENS MAIS VISTOS -->
+              <div class="col-md-3">
+                <aside>
+                  <div class="sidebar-widget dark-back linkdosItensMaisVistos">
+                    <h3><br />&ensp;Itens Mais Vistos</h3>
+
+                    <!-- este é o inicio do item 01-->
+                    <div class="centroItensMaisVistos top-products clearfix">
+                      <a href="#."><img src="images/shop/t1.png" alt="" /></a>
+                      <div class="top-products-detail">
+                        <h4><a href="#.">Mouse Razr</a></h4>
+                        <a><img src="images/estrelas/05.png" class="reduzImg estrelaMaisVista" /></a>
+                        <p>(6)</p>
+                        <p>R$ 125,00</p>
+                      </div>
+                    </div>
+                    <!-- este é o final do item 01-->
+
+                    <!-- este é o inicio item 02-->
+                    <div class="centroItensMaisVistos top-products clearfix">
+                      <a href="#."><img src="images/shop/t2.png" alt="" /></a>
+                      <div class="top-products-detail">
+                        <h4><a href="#.">Teclado Red Dragon</a></h4>
+                        <a><img src="images/estrelas/03.png" class="reduzImg estrelaMaisVista" /></a>
+                        <p>(6)</p>
+                        <p>R$ 315,00</p>
+                      </div>
+                    </div>
+                    <!-- este é o fim do item 02-->
+
+                    <!-- este é o inicio do item 03-->
+                    <div class="centroItensMaisVistos top-products clearfix">
+                      <a href="#."><img src="images/shop/t3.png" alt="" /></a>
+                      <div class="top-products-detail">
+                        <h4><a href="#.">Impressora HP</a></h4>
+                        <a><img src="images/estrelas/01.png" class="reduzImg estrelaMaisVista" /></a>
+                        <p>(6)</p>
+                        <p>R$ 578,00</p>
+                      </div>
+                    </div>
+                    <!-- este é o fim do item 03-->
+
+                    <!-- este é o inicio do item 04-->
+                    <div class="centroItensMaisVistos top-products clearfix">
+                      <a href="#."><img src="images/shop/t4.png" alt="" /></a>
+                      <div class="top-products-detail">
+                        <h4><a href="#.">Memória Corsair</a></h4>
+                        <a><img src="images/estrelas/04.png" class="reduzImg estrelaMaisVista" /></a>
+                        <p>(6)</p>
+                        <p>R$ 492,00</p>
+                      </div>
+                    </div>
+                    <!-- este é o fim do item 04-->
+
+                    <!-- este é o inicio do item 05-->
+                    <div class="centroItensMaisVistos top-products clearfix">
+                      <a href="#."><img src="images/shop/t5.png" alt="" /></a>
+                      <div class="top-products-detail">
+                        <h4><a href="#.">SSD Kingston</a></h4>
+                        <a><img src="images/estrelas/02.png" class="reduzImg estrelaMaisVista" /></a>
+                        <p>(6)</p>
+                        <p>R$ 721,00</p>
+                      </div>
+                    </div>
+                    <!-- este é o fim do item 05-->
+
+                    <!-- Aqui comeca o botao de ver mais-->
+                    <div class="row bottom20">
+                      <div class="col-md-7 col-centered">
+                        <div>
+                          <input
+                            name="botaoVerMais"
+                            id="botaoVerMais"
+                            type="submit"
+                            value="Ver Mais Itens"
+                            class="btn btn-danger btn-lg"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Aqui termina o botao de ver mais-->
+                  </div>
+
+                  <!-- Aqui comeca o BOLETIM DE NOTICIAS-->
+                  <div class="sidebar-widget dark-back">
+                    <h3><br />&ensp;Boletim de Notícias</h3>
+                    <div class="row bottom20">
+                      <div class="col-md-10 col-centered">
+                        <!-- Aqui comeca a Caixa para digitar o email -->
+                        <div class="form-group">
+                          <input
+                            type="text"
+                            placeholder="Digite aqui seu email"
+                            name="contact_subject"
+                            id="contact_subject"
+                            class="form-control"
+                          />
+                        </div>
+                        <!-- Aqui finaliza a Caixa para digitar o email-->
+                      </div>
+                      <div class="col-md-6 col-centered">
+                        <div class="form-group">
+                          <!-- Aqui esta botao de Cadastrar-->
+                          <input
+                            name="botaoVerMais"
+                            id="botaoVerMais"
+                            type="submit"
+                            value="Cadastrar"
+                            class="btn btn-danger btn-lg"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Aqui termina o BOLETIM DE NOTICIAS-->
+                </aside>
+              </div>
+              <!-- AQUI TERMINA A COLUNA DOS ITENS MAIS VISTOS -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End Content-->
+
+      <!--Start Footer-->
+      <footer class="footer" id="footer">
+        <div class="container">
+          <div class="main-footer">
+            <div class="row">
+              <div class="col-md-3">
+                <!--AQUI COMECA O METODO DE PAGAMENTO-->
+                <div class="useful-links">
+                  <div class="title">
+                    <h6 class="textoH6DoRodape">Método de Pagamento</h6>
+                  </div>
+                  <div class="detail">
+                    <!--Aqui estao as imagens do cartao visa e mastercard-->
+                    <div class="row">
+                      <img src="images/pagamentos/00.png" class="cartaoRodape" alt="" />
+                      <img src="images/pagamentos/01.png" class="cartaoRodape" alt="" />
+                    </div>
+                    <!--Aqui termina os cartao visa e mastercard-->
+
+                    <!--Aqui estao as imagens do paypal e american express-->
+                    <div class="row">
+                      <img src="images/pagamentos/02.png" class="cartaoRodape" alt="" />
+                      <img src="images/pagamentos/03.png" class="cartaoRodape" alt="" />
+                    </div>
+                    <!--Aqui termina as imagens do paypal e american express-->
+                  </div>
+                </div>
+                <!--AQUI TERMINA O METODO DE PAGAMENTO-->
+              </div>
+
+              <!--AQUI COMECA OS LINK RAPIDOS-->
+              <div class="col-md-3">
+                <div class="title">
+                  <h6 class="textoH6DoRodape">Links Rápidos</h6>
+                </div>
+
+                <!--AQUI TERMINA OS LINK RAPIDOS-->
+                <div class="useful-links">
+                  <div class="detail">
+                    <ul class="linksDoRodape">
+                      <li><a href="#.">Ajuda</a></li>
+                      <li><a href="#.">Política de envio</a></li>
+                      <li><a href="#.">Cancelamento e Devoluções</a></li>
+                      <li><a href="#.">Perguntas Frequentes</a></li>
+                      <li><a href="#.">Política de Privacidade</a></li>
+                      <li><a href="#.">Reclamações</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <!--Aqui termina os links do rodape-->
+              </div>
+              <!--AQUI TERMINA OS LINK RAPIDOS-->
+
+              <!--AQUI COMECA AS REDES SOCIAIS-->
+              <div class="col-md-3">
+                <div class="newsletter">
+                  <div class="title">
+                    <h6 class="textoH6DoRodape">Redes Sociais</h6>
+                  </div>
+
+                  <div class="detail">
+                    <ul class="iconesDoRodape">
+                      <li>
+                        <i class="icon-facebook"></i>
+                      </li>
+                      <li>
+                        <i class="icon-tumblr"></i>
+                      </li>
+                      <li>
+                        <i class="icon-googleplus"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!--AQUI TERMINA AS REDES SOCIAIS-->
+
+              <!--AQUI COMECA AS FORMAS DE CONTATO-->
+              <div class="col-md-3">
+                <div class="get-touch">
+                  <div class="title">
+                    <h6 class="textoH6DoRodape">Contate-nos</h6>
+                  </div>
+
+                  <div class="detail top20">
+                    <div class="get-touch">
+                      <!--Aqui comeca os icones com as suas respectivas informacoes-->
+                      <ul>
+                        <li><i class="icon-location"></i> <span>Rua Rio Cumprido, Cinco - Contagem</span></li>
+                        <li><i class="icon-phone4"></i> <span>(31) 3399-5950</span></li>
+                        <li>
+                          <a href="#."><i class="icon-dollar"></i> <span>1450747@sga.pucminas.br</span></a>
+                        </li>
+                      </ul>
+                      <!--Aqui termina os icones com as suas respectivas informacoes-->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--AQUI TERMINA AS FORMAS DE CONTATO-->
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--End Footer-->
+
+      <div class="text-center fs-5" style="background-color: #e1a6a3; color: black">
+        <p>Copyright &copy; 2023 - DigitalDimension.com</p>
+      </div>
+
+      <a href="#0" class="cd-top"></a>
+    </div>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <!-- SMOOTH SCROLL -->
+    <script type="text/javascript" src="js/scroll-desktop.js"></script>
+    <script type="text/javascript" src="js/scroll-desktop-smooth.js"></script>
+
+    <!-- START REVOLUTION SLIDER -->
+    <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
+
+    <!-- Date Picker and input hover -->
+    <script type="text/javascript" src="js/classie.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.10.3.custom.js"></script>
+
+    <!-- Fun Facts Counter -->
+    <script type="text/javascript" src="js/counter.js"></script>
+
+    <!-- Welcome Tabs -->
+    <script type="text/javascript" src="js/tabs.js"></script>
+
+    <!-- All Carousel -->
+    <script type="text/javascript" src="js/owl.carousel.js"></script>
+
+    <!-- Mobile Menu -->
+    <script type="text/javascript" src="js/jquery.mmenu.min.all.js"></script>
+
+    <!-- All Scripts -->
+    <script type="text/javascript" src="js/custom.js"></script>
+
+    <!-- Revolution Slider -->
+    <script type="text/javascript">
+      jQuery('.tp-banner')
+        .show()
+        .revolution({
+          dottedOverlay: 'none',
+          delay: 2500,
+          startwidth: 1170,
+          startheight: 720,
+          hideThumbs: 200,
+
+          thumbWidth: 100,
+          thumbHeight: 50,
+          thumbAmount: 5,
+
+          navigationType: 'nexttobullets',
+          navigationArrows: 'solo',
+          navigationStyle: 'preview',
+
+          touchenabled: 'on',
+          onHoverStop: 'on',
+
+          swipe_velocity: 0.7,
+          swipe_min_touches: 1,
+          swipe_max_touches: 1,
+          drag_block_vertical: false,
+
+          parallax: 'mouse',
+          parallaxBgFreeze: 'on',
+          parallaxLevels: [7, 4, 3, 2, 5, 4, 3, 2, 1, 0],
+
+          keyboardNavigation: 'off',
+
+          navigationHAlign: 'center',
+          navigationVAlign: 'bottom',
+          navigationHOffset: 0,
+          navigationVOffset: 20,
+
+          soloArrowLeftHalign: 'left',
+          soloArrowLeftValign: 'center',
+          soloArrowLeftHOffset: 20,
+          soloArrowLeftVOffset: 0,
+
+          soloArrowRightHalign: 'right',
+          soloArrowRightValign: 'center',
+          soloArrowRightHOffset: 20,
+          soloArrowRightVOffset: 0,
+
+          shadow: 0,
+          fullWidth: 'on',
+          fullScreen: 'off',
+
+          spinner: 'spinner4',
+
+          stopLoop: 'off',
+          stopAfterLoops: -1,
+          stopAtSlide: -1,
+
+          shuffle: 'off',
+
+          autoHeight: 'off',
+          forceFullWidth: 'off',
+
+          hideThumbsOnMobile: 'off',
+          hideNavDelayOnMobile: 1500,
+          hideBulletsOnMobile: 'off',
+          hideArrowsOnMobile: 'off',
+          hideThumbsUnderResolution: 0,
+
+          hideSliderAtLimit: 0,
+          hideCaptionAtLimit: 0,
+          hideAllCaptionAtLilmit: 0,
+          startWithSlide: 0,
+          videoJsPath: 'rs-plugin/videojs/',
+          fullScreenOffsetContainer: '',
+        });
+    </script>
+  </body>
 </html>
