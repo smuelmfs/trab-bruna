@@ -108,184 +108,182 @@
         </div>
       </div>
       <!-- Mobile Menu End -->
-      <!--Start Banner-->
-      <div class="row">
-        <!-- Aqui inicia o banner -->
-        <div class="col-12">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="tp-banner-container">
-                <div class="tp-banner">
-                  <ul>
-                    <!-- SLIDE  -->
-                    <li
-                      data-transition="fade"
-                      data-slotamount="7"
-                      data-masterspeed="10"
-                      data-saveperformance="on"
-                      data-title="Intro Slide"
-                    >
-                      <img
-                        src="images/bannerprincipal/01.jpg"
-                        alt=""
-                        data-bgposition="center top"
-                        data-bgfit="cover"
-                        data-bgrepeat="no-repeat"
-                      />
-                    </li>
-                    <li
-                      data-transition="fade"
-                      data-slotamount="7"
-                      data-masterspeed="10"
-                      data-saveperformance="on"
-                      data-title="Intro Slide"
-                    >
-                      <img
-                        src="images/bannerprincipal/02.jpg"
-                        alt=""
-                        data-bgposition="center top"
-                        data-bgfit="cover"
-                        data-bgrepeat="no-repeat"
-                      />
-                    </li>
-                    <li
-                      data-transition="fade"
-                      data-slotamount="7"
-                      data-masterspeed="10"
-                      data-saveperformance="on"
-                      data-title="Intro Slide"
-                    >
-                      <img
-                        src="images/bannerprincipal/03.jpg"
-                        alt=""
-                        data-bgposition="center top"
-                        data-bgfit="cover"
-                        data-bgrepeat="no-repeat"
-                      />
-                    </li>
-                  </ul>
-                  <div class="tp-bannertimer"></div>
-                </div>
-              </div>
-            </div>
+      <div class="row" style="margin-top: 20px">
+        <div class="col-12" align="center">
+          <div class="form-group">
+            <input
+              type="text"
+              placeholder="Pesquise por um produto, categoria, vendedores ou marca"
+              name="campoPesquisaPrincipal"
+              id="campoPesquisaPrincipal"
+              class="form-control mesmaLinha correcaoInputPrincipal"
+            />
+            <input name=" " type="submit" value="Pesquisar" class="btn btn-danger mesmaLinha" />
           </div>
         </div>
-        <!--Aqui termina o banner -->
-        <!-- Aqui inicia o campo de busca -->
-        <div class="row" style="margin-top: 20px">
-          <div class="col-12" align="center">
-            <div class="form-group">
-              <input
-                type="text"
-                placeholder="Pesquise por um produto, categoria, vendedores ou marca"
-                name="campoPesquisaPrincipal"
-                id="campoPesquisaPrincipal"
-                class="form-control mesmaLinha correcaoInputPrincipal"
-              />
-              <input name=" " type="submit" value="Pesquisar" class="btn btn-danger mesmaLinha" />
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-4 espacoBusca">
-          <div class="content">
-            <div class="leave-msg dark-back">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="main-title top50">
-                      <h4>Busca Rápida - Escolha o Produto</h4>
-                      <p>Encontre o produto certo pelo preço.</p>
-                    </div>
-                    <div class="form">
-                      <form name="contact_form" id="contact_form" method="post" action="#" onSubmit="return false">
-                        <div class="row bottom20">
-                          <div class="col-md-6">
-                            <div class="form-group">
-                              <label class="control-label">Tipo:</label>
-                              <select class="form-control custom-select" id="pesquisaTipo" name="pesquisaTipo">
-                                <option value="0" selected>Selecione uma Opção:</option>
-                                <option value="Computador">Computador</option>
-                                <option value="Impressora">Impressora</option>
-                                <option value="Monitor">Monitor</option>
-                                <option value="Teclado">Teclado</option>
-                                <option value="Placas de Vídeo">Placas de Vídeo</option>
-                              </select>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row bottom20">
-                          <div class="col-md-6">
-                            <div class="form-group">
-                              <label class="control-label">Marca:</label>
-                              <select class="form-control custom-select" id="pesquisaMarca" name="pesquisaMarca">
-                                <option value="0" selected>Selecione uma Opção:</option>
-                                <option value="Dell">Dell</option>
-                                <option value="Lenovo">Lenovo</option>
-                                <option value="Acer">Acer</option>
-                                <option value="HP">HP</option>
-                                <option value="Asus">Asus</option>
-                              </select>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row bottom20">
-                          <div class="col-md-6">
-                            <div class="form-group">
-                              <label class="control-label">Modelo:</label>
-                              <select class="form-control custom-select" id="pesquisaModelo" name="pesquisaModelo">
-                                <option value="0" selected>Selecione uma Opção:</option>
-                                <option value="Vostro 15">Vostro 15</option>
-                                <option value="M75q">M75q</option>
-                                <option value="Swift 3">Swift 3</option>
-                                <option value="Pro Book">Pro Book</option>
-                                <option value="x515">x515</option>
-                              </select>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row bottom20">
-                          <div class="col-md-3">
-                            <div class="form-group">
-                              <label class="control-label">Valor Mínimo:</label>
-                              <input
-                                type="text"
-                                placeholder="R$:00,00"
-                                name="valorMinimo"
-                                id="valorMinimo"
-                                class="form-control"
-                              />
-                            </div>
-                          </div>
-                          <div class="col-md-3">
-                            <div class="form-group">
-                              <label class="control-label">Valor Máximo:</label>
-                              <input
-                                type="text"
-                                placeholder="R$:00,00"
-                                name="valorMaximo"
-                                id="valorMaximo"
-                                class="form-control"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row bottom20">
-                          <div class="col-md-8 col-centered">
-                            <div class="form-actions">
-                              <input name=" " type="submit" value="Pesquisar" class="btn btn-danger btn-lg" />
-                            </div>
-                          </div>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Aqui finaliza o campo de busca -->
       </div>
+      <!--Start Banner-->
+			<div class="container">
+				<div class="row">
+					<!-- Aqui inicia o campo de busca -->
+					<div class="col-xs-6 espacoBusca nopadding">
+						<div class="content">
+							<div class="leave-msg dark-back">
+								<div class="container">
+									<div class="row">
+										<div class="col-md-12">
+											<div class="main-title top50">
+												<h4>Busca Rápida - Escolha o Produto</h4>
+												<p>Encontre o produto certo pelo preço.</p>
+											</div>
+											<div class="form">
+												<form name="contact_form" id="contact_form" method="post" action="#" onSubmit="return false">
+													<div class="row bottom20">
+														<div class="col-md-6">
+															<div class="form-group">
+																<label class="control-label">Tipo:</label>
+																<select class="form-control custom-select" id="pesquisaTipo" name="pesquisaTipo">
+																	<option value="0" selected>Selecione uma Opção:</option>
+																	<option value="Computador">Computador</option>
+																	<option value="Impressora">Impressora</option>
+																	<option value="Monitor">Monitor</option>
+																	<option value="Teclado">Teclado</option>
+																	<option value="Placas de Vídeo">Placas de Vídeo</option>
+																</select>
+															</div>
+														</div>
+													</div>
+													<div class="row bottom20">
+														<div class="col-md-6">
+															<div class="form-group">
+																<label class="control-label">Marca:</label>
+																<select class="form-control custom-select" id="pesquisaMarca" name="pesquisaMarca">
+																	<option value="0" selected>Selecione uma Opção:</option>
+																	<option value="Dell">Dell</option>
+																	<option value="Lenovo">Lenovo</option>
+																	<option value="Acer">Acer</option>
+																	<option value="HP">HP</option>
+																	<option value="Asus">Asus</option>
+																</select>
+															</div>
+														</div>
+													</div>
+													<div class="row bottom20">
+														<div class="col-md-6">
+															<div class="form-group">
+																<label class="control-label">Modelo:</label>
+																<select class="form-control custom-select" id="pesquisaModelo" name="pesquisaModelo">
+																	<option value="0" selected>Selecione uma Opção:</option>
+																	<option value="Vostro 15">Vostro 15</option>
+																	<option value="M75q">M75q</option>
+																	<option value="Swift 3">Swift 3</option>
+																	<option value="Pro Book">Pro Book</option>
+																	<option value="x515">x515</option>
+																</select>
+															</div>
+														</div>
+													</div>
+													<div class="row bottom20">
+														<div class="col-md-3">
+															<div class="form-group">
+																<label class="control-label">Valor Mínimo:</label>
+																<input
+																	type="text"
+																	placeholder="R$:00,00"
+																	name="valorMinimo"
+																	id="valorMinimo"
+																	class="form-control"
+																/>
+															</div>
+														</div>
+														<div class="col-md-3">
+															<div class="form-group">
+																<label class="control-label">Valor Máximo:</label>
+																<input
+																	type="text"
+																	placeholder="R$:00,00"
+																	name="valorMaximo"
+																	id="valorMaximo"
+																	class="form-control"
+																/>
+															</div>
+														</div>
+													</div>
+													<div class="row bottom20">
+														<div class="col-md-8 col-centered">
+															<div class="form-actions">
+																<input name=" " type="submit" value="Pesquisar" class="btn btn-danger btn-lg" />
+															</div>
+														</div>
+													</div>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Aqui finaliza o campo de busca -->
+					<!-- Aqui inicia o banner -->
+					<div class="col-xs-6 nopadding">
+						<div class="tp-banner-container">
+							<div class="tp-banner">
+								<ul>
+									<!-- SLIDE  -->
+									<li
+										data-transition="fade"
+										data-slotamount="7"
+										data-masterspeed="10"
+										data-saveperformance="on"
+										data-title="Intro Slide"
+									>
+										<img
+											src="images/bannerprincipal/01.jpg"
+											alt=""
+											data-bgposition="center top"
+											data-bgfit="cover"
+											data-bgrepeat="no-repeat"
+										/>
+									</li>
+									<li
+										data-transition="fade"
+										data-slotamount="7"
+										data-masterspeed="10"
+										data-saveperformance="on"
+										data-title="Intro Slide"
+									>
+										<img
+											src="images/bannerprincipal/02.jpg"
+											alt=""
+											data-bgposition="center top"
+											data-bgfit="cover"
+											data-bgrepeat="no-repeat"
+										/>
+									</li>
+									<li
+										data-transition="fade"
+										data-slotamount="7"
+										data-masterspeed="10"
+										data-saveperformance="on"
+										data-title="Intro Slide"
+									>
+										<img
+											src="images/bannerprincipal/03.jpg"
+											alt=""
+											data-bgposition="center top"
+											data-bgfit="cover"
+											data-bgrepeat="no-repeat"
+										/>
+									</li>
+								</ul>
+								<div class="tp-bannertimer"></div>
+							</div>
+						</div>
+					</div>
+					<!--Aqui termina o banner -->
+				</div>
+			</div>
       <!--Fim da Row com a busca e o banner-->
 
       <!--Start Content-->

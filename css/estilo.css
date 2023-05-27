@@ -78,6 +78,10 @@ ul.iconesDoRodape li{
 ul.linkDosItensVendidos h3 a{
   color: red;
 }
+.nopadding {
+	padding: 0 !important;
+	margin: 0 !important;
+}
 
 @media screen and (min-width: 969px) {
 	.leave-msg{

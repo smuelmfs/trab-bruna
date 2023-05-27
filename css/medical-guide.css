@@ -808,9 +808,9 @@ a .img-layer-slide-left-right .layer{transition:all .4s ease-in-out;-webkit-tran
 /************************************ SHOP *************************************/
 .shop{margin: 0 -10px;padding: 0 10px; width: 102.3%;}
 .shop h2{font-size:32px;}
-.shop li{display: inline-block; margin: 0 0 27px; padding: 0 10px; width: 33%;}
+.shop li{display: inline-block; margin: 0 0 27px; padding: 0 10px; width: 32%;}
 .shop.full-width li{width: 24.7%;}
-.product{border:1px solid #dadada;display: inline-table;width: 100%;}
+.product{border:1px solid #dadada;width: 100%;}
 .product-thumb{position:relative;margin:-1px;}
 .product-thumb img { width: 100%;}
 .product-thumb label{  border-radius: 100%; color: #fff; display: block; height: 59px; left: 16px; line-height: 61px; position: absolute; text-align: center; top: 16px; width: 59px;}
