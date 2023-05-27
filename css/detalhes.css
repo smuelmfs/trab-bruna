@@ -52,8 +52,9 @@ body {
 }
 
 .product-image {
-  width: 300px;
-  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .product-info {
