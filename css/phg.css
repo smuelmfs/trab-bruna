@@ -1,0 +1,30 @@
+.phg .icon-prescription-pad:before,.phg .icon-eye6:before,.phg .icon-star:before{
+	margin-right: 8px;
+}
+a.linkpreto:link,a.linkpreto:visited,a.linkpreto:active{
+	color:#444444 !important;
+	transition: color 1.25s ease-out; 
+	-webkit-transition: color 1.25s ease-out; 
+	-moz-transition: color 1.25s ease-out; 
+	-o-transition: color 1.25s ease-out;
+}
+a.linkpreto:hover{
+	color:#02ADC6 !important;
+	transition: color 1.25s ease-out; 
+	-webkit-transition: color 1.25s ease-out; 
+	-moz-transition: color 1.25s ease-out; 
+	-o-transition: color 1.25s ease-out;
+}
+#texto-servico1 p{
+	display: none;
+}
+#servico1:hover #texto-servico1 p {
+	display: block;
+}
+.centered {
+    margin: 0 auto !important;
+    float: none !important;
+}
+.hover:hover{
+	background-color: #02ADC6 !important;
+}

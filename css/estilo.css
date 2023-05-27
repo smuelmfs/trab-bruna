@@ -1,0 +1,89 @@
+
+.bottom10{
+	padding-bottom:10px !important;
+}
+.bottom20{
+	padding-bottom:20px !important;
+}
+.top50{
+	padding-top:50px !important;
+}
+.marginTop50{
+	margin-top:50px !important;
+}
+.top20{
+	margin-top:20px !important;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.reduzImg{
+	width: 50% !important;
+}
+.botaoDireita{
+	margin-left:30px;
+}
+.estrelaMaisVista{
+	padding-top: 9px;
+	padding-right: 5px;
+}
+.centroItensMaisVistos{
+	margin-left:20px;
+	margin-right:20px;
+}
+.textoH6DoRodape{
+	color: #fff;
+	text-transform: uppercase;
+	border-bottom: solid 1px #fff;
+	padding: 0 0 12px 0;
+	display: inline-block;
+	margin: 0px 0 -1px 0;
+	float: left;
+	font-size:20px;
+}
+.cartaoRodape{
+	width:96px !important;
+	display:inline-block;
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+.linkdosItensMaisVistos h4 a{
+    color: red !important;
+}
+.correcaoLogo{
+	margin-left: 30px !important;
+}
+.mesmaLinha{
+	display:inline-block !important;
+}
+.correcaoInputPrincipal{
+	width:70% !important;
+}
+.linkTopoPagina{
+	display:inline-block !important;
+}
+ul.linksDoRodape li{
+	float:none !important;
+	width: 100% !important;
+}
+ul.iconesDoRodape li{
+   color: #fff;
+   float: left;
+   font-size: 40px;
+   margin: 0 9px 0 0;
+   display:inline-block;
+   margin-left: 15px;
+}	
+ul.linkDosItensVendidos h3 a{
+  color: red;
+}
+
+@media screen and (min-width: 969px) {
+	.leave-msg{
+		min-height: 720px;	
+	}
+	.espacoBusca{
+		padding-left:27px;
+	}
+}
